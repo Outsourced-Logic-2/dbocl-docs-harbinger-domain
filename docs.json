@@ -1,8 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "dBocl Documentation",
-  "description": "Back-of-House Event Management Platform",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#2563EB",
     "light": "#3B82F6",
@@ -12,74 +11,50 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Guides",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "faq"
+              "quickstart"
             ]
           },
           {
-            "group": "Core Features",
+            "group": "Essentials",
             "pages": [
-              "features/user-login",
-              "features/organizations-events",
-              "features/dashboard"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Event Management",
-        "groups": [
-          {
-            "group": "People",
-            "pages": [
-              "essentials/people"
-            ]
-          },
-          {
-            "group": "Schedule",
-            "pages": [
-              "essentials/schedule"
-            ]
-          },
-          {
-            "group": "Tasks",
-            "pages": [
+              "essentials/people",
+              "essentials/schedule",
+              "essentials/files",
               "essentials/tasks"
             ]
           },
           {
-            "group": "Files",
+            "group": "Features",
             "pages": [
-              "essentials/files"
+              "features/travel",
+              "features/reports",
+              "features/communication"
             ]
           }
         ]
       },
       {
-        "tab": "Advanced Features",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "Travel",
+            "group": "API Documentation",
             "pages": [
-              "features/travel"
+              "api-reference/introduction"
             ]
           },
           {
-            "group": "Reports",
+            "group": "Endpoint Examples",
             "pages": [
-              "features/reports"
-            ]
-          },
-          {
-            "group": "Communication",
-            "pages": [
-              "features/communication"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -88,14 +63,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Our Website",
-          "href": "https://www.dbocl.com",
-          "icon": "globe"
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://community.dbocl.com",
+          "href": "https://mintlify.com/community",
           "icon": "slack"
+        },
+        {
+          "anchor": "FAQ",
+          "href": "https://mintlify.com/faq",
+          "icon": "question"
         }
       ]
     }
@@ -108,20 +88,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "https://www.dbocl.com/contact-us"
+        "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.dbocl.com"
+      "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/dbocl",
-      "github": "https://github.com/dbocl",
-      "linkedin": "https://linkedin.com/company/dbocl"
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
