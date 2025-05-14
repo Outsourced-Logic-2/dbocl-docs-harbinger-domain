@@ -18,7 +18,8 @@
             "group": "Introduction",
             "pages": [
               "index",
-              "quickstart"
+              "quickstart",
+              "faq"
             ]
           },
           {
@@ -87,19 +88,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://docs.dbocl.com",
-          "icon": "book-open-cover"
+          "anchor": "Our Website",
+          "href": "https://www.dbocl.com",
+          "icon": "globe"
         },
         {
           "anchor": "Community",
           "href": "https://community.dbocl.com",
           "icon": "slack"
-        },
-        {
-          "anchor": "FAQ",
-          "href": "https://dbocl.com/faq",
-          "icon": "question"
         }
       ]
     }
@@ -112,7 +108,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@dbocl.com"
+        "href": "https://www.dbocl.com/contact-us"
       }
     ],
     "primary": {
