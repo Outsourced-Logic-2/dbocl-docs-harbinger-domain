@@ -61,8 +61,8 @@
     }
   },
   "logo": {
-    "light": "/dbocl-logo.png",
-    "dark": "/dbocl-logo.png"
+    "light": "/dbocl-logo.svg",
+    "dark": "/dbocl-logo.svg"
   },
   "navbar": {
     "links": [
