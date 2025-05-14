@@ -52,11 +52,6 @@
           "anchor": "Community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
-        },
-        {
-          "anchor": "FAQ",
-          "href": "https://mintlify.com/faq",
-          "icon": "question"
         }
       ]
     }
