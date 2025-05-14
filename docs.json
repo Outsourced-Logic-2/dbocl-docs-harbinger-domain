@@ -101,8 +101,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/dbocl-screen-crop-600.png",
+    "dark": "/dbocl-screen-crop-600.png"
   },
   "navbar": {
     "links": [
