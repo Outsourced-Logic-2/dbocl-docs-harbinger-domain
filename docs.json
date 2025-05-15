@@ -27,22 +27,22 @@
             "anchors": [
               {
                 "anchor": "People",
-                "href": "https://prod.dbocl.com/people",
+                "href": "https://www.dbocl.com/feature-management",
                 "icon": "users"
               },
               {
                 "anchor": "Schedule",
-                "href": "https://prod.dbocl.com/schedule",
+                "href": "https://www.dbocl.com/feature-page-schedules",
                 "icon": "calendar"
               },
               {
                 "anchor": "Files",
-                "href": "https://prod.dbocl.com/files",
+                "href": "https://www.dbocl.com/feature-page-files",
                 "icon": "folder"
               },
               {
                 "anchor": "Tasks",
-                "href": "https://prod.dbocl.com/tasks",
+                "href": "https://www.dbocl.com/feature-page-tasks",
                 "icon": "check-square"
               }
             ]
