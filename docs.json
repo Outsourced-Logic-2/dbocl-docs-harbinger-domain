@@ -8,71 +8,50 @@
     "dark": "#1D4ED8"
   },
   "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "faq",
-              "testing"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "anchors": [
-              {
-                "anchor": "People",
-                "href": "https://www.dbocl.com/feature-management",
-                "icon": "users"
-              },
-              {
-                "anchor": "Schedule",
-                "href": "https://www.dbocl.com/feature-page-schedules",
-                "icon": "calendar"
-              },
-              {
-                "anchor": "Files",
-                "href": "https://www.dbocl.com/feature-page-files",
-                "icon": "folder"
-              },
-              {
-                "anchor": "Tasks",
-                "href": "https://www.dbocl.com/feature-page-tasks",
-                "icon": "check-square"
-              }
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "features/travel",
-              "features/reports",
-              "features/communication"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "index",
+        "quickstart",
+        "faq",
+        "testing"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
         {
-          "anchor": "Our website",
-          "href": "https://www.dbocl.com",
-          "icon": "globe"
+          "title": "People",
+          "href": "https://www.dbocl.com/feature-management",
+          "icon": "users"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "title": "Schedule",
+          "href": "https://www.dbocl.com/feature-page-schedules",
+          "icon": "calendar"
+        },
+        {
+          "title": "Files",
+          "href": "https://www.dbocl.com/feature-page-files",
+          "icon": "folder"
+        },
+        {
+          "title": "Tasks",
+          "href": "https://www.dbocl.com/feature-page-tasks",
+          "icon": "check-square"
         }
       ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/travel",
+        "features/reports",
+        "features/communication"
+      ]
     }
-  },
+  ],
   "logo": {
     "light": "/logo/dbocl-logo-light.svg",
     "dark": "/logo/dbocl-logo-dark.svg"
