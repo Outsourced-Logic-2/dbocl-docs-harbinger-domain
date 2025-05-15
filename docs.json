@@ -24,11 +24,27 @@
           },
           {
             "group": "Essentials",
-            "pages": [
-              "essentials/people",
-              "essentials/schedule",
-              "essentials/files",
-              "essentials/tasks"
+            "anchors": [
+              {
+                "anchor": "People",
+                "href": "https://prod.dbocl.com/people",
+                "icon": "users"
+              },
+              {
+                "anchor": "Schedule",
+                "href": "https://prod.dbocl.com/schedule",
+                "icon": "calendar"
+              },
+              {
+                "anchor": "Files",
+                "href": "https://prod.dbocl.com/files",
+                "icon": "folder"
+              },
+              {
+                "anchor": "Tasks",
+                "href": "https://prod.dbocl.com/tasks",
+                "icon": "check-square"
+              }
             ]
           },
           {
