@@ -45,8 +45,8 @@
     }
   },
   "logo": {
-    "light": "/logo/analog-labs-logo-light.svg",
-    "dark": "/logo/analog-labs-logo-dark.svg"
+    "light": "/logo/analog-labs-logo-light.png",
+    "dark": "/logo/analog-labs-logo-dark.png"
   },
   "navbar": {
     "links": [
