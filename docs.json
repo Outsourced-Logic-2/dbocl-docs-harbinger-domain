@@ -57,7 +57,8 @@
     "primary": {
       "type": "button",
       "label": "Visit Analog Labs",
-      "href": "https://analog-labs.com"
+      "href": "https://analog-labs.com",
+      "color": "#ff5e2b"
     }
   },
   "footer": {
