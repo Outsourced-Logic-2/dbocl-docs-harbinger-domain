@@ -15,11 +15,19 @@
         "groups": [
           {
             "group": "Get Started",
-          "pages": [
-            "index",
-            "quickstart",
-            "faq"
-          ]
+            "pages": [
+              "index",
+              "quickstart",
+              "faq"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/network-management",
+              "guides/diy-card",
+              "guides/verify-caller"
+            ]
           }
           
         ]

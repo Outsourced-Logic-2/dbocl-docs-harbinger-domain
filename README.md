@@ -19,5 +19,9 @@ Push changes to the default branch to deploy the updated documentation site.
 
 ## Troubleshooting
 
-- If the development server fails to start, run `mintlify install` to reinstall dependencies.
-- If a page loads as a 404, make sure you are running commands from the folder containing `docs.json`.
+ - If the development server fails to start, run `mintlify install` to reinstall dependencies.
+ - If a page loads as a 404, make sure you are running commands from the folder containing `docs.json`.
+
+## License
+
+This project is released under the [MIT License](./LICENSE).
