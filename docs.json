@@ -40,11 +40,6 @@
           "anchor": "Our website",
           "href": "https://analoglabs.framer.website/",
           "icon": "globe"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://analog-labs.com/community",
-          "icon": "users"
         }
       ]
     }
