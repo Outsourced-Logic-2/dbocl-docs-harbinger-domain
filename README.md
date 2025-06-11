@@ -1,32 +1,23 @@
-# Mintlify Starter Kit
+# Analog Labs Documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This repository contains the public documentation for **Analog Labs** and our flagship product, the **Human Verification Card**. The documentation site is powered by [Mintlify](https://www.mintlify.com/).
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## Development
 
-### Development
+1. Install the Mintlify CLI:
+   ```bash
+   npm i -g mintlify
+   ```
+2. Run the development server from the repository root:
+   ```bash
+   mintlify dev
+   ```
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## Publishing Changes
 
-```
-npm i -g mintlify
-```
+Push changes to the default branch to deploy the updated documentation site.
 
-Run the following command at the root of your documentation (where docs.json is)
+## Troubleshooting
 
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+- If the development server fails to start, run `mintlify install` to reinstall dependencies.
+- If a page loads as a 404, make sure you are running commands from the folder containing `docs.json`.
