@@ -31,11 +31,6 @@
           "anchor": "Our website",
           "href": "https://analog-labs.com",
           "icon": "globe"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://analog-labs.com/community",
-          "icon": "users"
         }
       ]
     }
