@@ -45,7 +45,7 @@
           "tab": "Security",
           "groups": [
             {
-            "group": "Security",
+              "group": "Overview",
               "pages": ["security"]
             }
           ]
