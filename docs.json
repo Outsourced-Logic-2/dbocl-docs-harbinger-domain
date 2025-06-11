@@ -8,32 +8,49 @@
     "dark": "#000000"
   },
   "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-          "pages": [
-            "index",
-            "quickstart",
-            "faq"
-          ]
-          }
+    "navigation": {
+      "tabs": [
+        {
+          "tab": "Guides",
+          "groups": [
+            {
+              "group": "Get Started",
+              "pages": [
+                "index",
+                "quickstart",
+                "faq"
+              ]
+            },
+            {
+              "group": "Essentials",
+              "pages": [
+                "essentials/files",
+                "essentials/people",
+                "essentials/schedule",
+                "essentials/tasks"
+              ]
+            },
+            {
+              "group": "Features",
+              "pages": [
+                "features/communication",
+                "features/reports",
+                "features/travel"
+              ]
+            }
 
-        ]
-      },
-      {
-        "tab": "Security",
-        "groups": [
-          {
-            "group": "Security",
-            "pages": ["security"]
-          }
-        ]
-      }
-    ],
+          ]
+        },
+        {
+          "tab": "Security",
+          "groups": [
+            {
+              "group": "Overview",
+              "pages": ["security"]
+            }
+          ]
+        }
+      ],
     "global": {
       "anchors": [
         {
@@ -52,13 +69,17 @@
     "links": [
       {
         "label": "Support",
-        "href": "https://analog-labs.com/contact"
+        "href": "mailto:founder@harbingersoftwaresolutions.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Visit Analog Labs",
-      "href": "https://analog-labs.com"
+      "href": "https://analog-labs.com",
+      "style": {
+        "backgroundColor": "#ff5e2b",
+        "color": "#ffffff"
+      }
     }
   },
   "footer": {
