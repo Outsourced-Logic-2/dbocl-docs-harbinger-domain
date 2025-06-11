@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Analog Labs",
   "colors": {
-    "primary": "#2563EB",
-    "light": "#3B82F6",
-    "dark": "#1D4ED8"
+    "primary": "#ff5e2b",
+    "light": "#ffffff",
+    "dark": "#000000"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -21,7 +21,16 @@
             "faq"
           ]
           }
-          
+
+        ]
+      },
+      {
+        "tab": "Security",
+        "groups": [
+          {
+            "group": "Security",
+            "pages": ["security"]
+          }
         ]
       }
     ],
@@ -29,7 +38,7 @@
       "anchors": [
         {
           "anchor": "Our website",
-          "href": "https://analog-labs.com",
+          "href": "https://analoglabs.framer.website/",
           "icon": "globe"
         },
         {
